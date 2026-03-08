@@ -1,10 +1,10 @@
-package com.addressbookapp;
+package com.addressbookapp.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AddressBookAppApplicationTests {
+class AddressbookappApplicationTests {
 
 	@Test
 	void contextLoads() {
