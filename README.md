@@ -97,4 +97,20 @@ Implemented functionality to add multiple contacts to the Address Book.
 
 ---
 
+## UC6 – Ability to Add Multiple Address Books to the System
+
+Refactored the program to support multiple Address Books in the system.
+
+**Features Implemented**
+
+- Each **Address Book has a unique name**.
+- Used **console input** to create new Address Books.
+- Maintained a **Dictionary (HashMap)** of AddressBookName → AddressBook.
+- System can now manage multiple address books.
+
+**GitHub Branch**
+
+[feature/UC6-multiple-addressbooks](https://github.com/rashi-raj/AddressBookApp/tree/feature/UC6-multiple-addressbooks)
+
+---
 
