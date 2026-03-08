@@ -4,6 +4,8 @@ import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
+import com.addressbookapp.model.Contact;
+
 @SpringBootApplication
 public class AddressBookAppApplication {
 
@@ -15,6 +17,9 @@ public class AddressBookAppApplication {
 		ConfigurableApplicationContext context = app.run(args);
 
 		System.out.println("Welcome to Address Book");
+		
+		Contact contact = new Contact("Steve", "Gensi", "Hawkins", "Roane", "Indiana", "543216","1218765400", "steve@email.com");
 
+		System.out.println(contact);
 	}
 }
