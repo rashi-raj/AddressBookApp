@@ -32,3 +32,20 @@ Implemented the ability to create a **Contact** with required personal and addre
 
 ---
 
+## UC2 – Ability to Add a New Contact to Address Book
+
+Implemented functionality to add a new contact to the Address Book using console input.
+
+**Features Implemented**
+
+- Created an `AddressBook` class to manage contacts.
+- Implemented method to **add a contact** to the address book.
+- Demonstrated **relationship between AddressBook and Contact classes** using OOP.
+
+**GitHub Branch**
+
+[feature/UC2-add-contact](https://github.com/rashi-raj/AddressBookApp/tree/feature/UC2-add-contact)
+
+---
+
+
